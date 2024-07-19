@@ -52,22 +52,46 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Signup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Signup.Designer.cs">
+      <DependentUpon>Signup.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="Welcomepage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="Welcomepage.Designer.cs">
+      <DependentUpon>Welcomepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffMlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffMlogin.Designer.cs">
+      <DependentUpon>StaffMlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PetMlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PetMlogin.Designer.cs">
+      <DependentUpon>PetMlogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PetMlogin.resx">
+      <DependentUpon>PetMlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signup.resx">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffMlogin.resx">
+      <DependentUpon>StaffMlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcomepage.resx">
+      <DependentUpon>Welcomepage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -96,6 +120,25 @@
     <None Include="Resources\logo.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\abstract-gradient-red-geometric-background-vector-2652259.jpg" />
+    <None Include="Resources\Usermain.png" />
+    <None Include="Resources\Male User.png" />
+    <None Include="Resources\password.png" />
+    <None Include="Resources\Back Arrow.png" />
+    <None Include="Resources\Go Back.png" />
+    <None Include="Resources\Back Arrow1.png" />
+    <None Include="Resources\Go Back1.png" />
+    <None Include="Resources\Back.png" />
+    <None Include="Resources\Email.png" />
+    <None Include="Resources\Calendar.png" />
+    <None Include="Resources\password1.png" />
+    <None Include="Resources\Done.png" />
+    <None Include="Resources\Done1.png" />
+    <None Include="Resources\Email1.png" />
+    <None Include="Resources\Done3.png" />
+    <None Include="Resources\Male User1.png" />
+    <None Include="Resources\Male User2.png" />
+    <None Include="Resources\Lock.png" />
     <Content Include="TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
